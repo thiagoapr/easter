@@ -1,9 +1,7 @@
 # Choose the year
-
 year <- 2015
 
 # Algorithm
-
 a <- year%%19
 b <- year%/%100
 c <- year%%100
@@ -22,5 +20,4 @@ month <-(h+l-(7*m)+114)%/%31  # 3 = March, 4 = April
 day <- p+1
 
 # Result
-
 easter <- as.Date(paste(year,month,day), "%Y%m%d")
